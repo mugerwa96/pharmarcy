@@ -1,0 +1,124 @@
+/* site setting */
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root{
+  --site-color:#44023f;
+  --site-color2:rgb(88, 19, 73);
+}
+
+/* navigation bar */
+.nav-link{
+    color:black;
+    font-weight: 400;
+}
+.nav-link i{
+    
+    color:var(--site-color2);
+}
+.siteColor{
+    color:var(--site-color)
+}
+.siteColor2{
+    background-color:var(--site-color)!important
+}
+
+.btn-site{
+    --mdb-btn-bg: var(--site-color)!important;
+    --mdb-btn-color: #fff;
+    --mdb-btn-box-shadow: 0 4px 9px -4px var(--site-color)!important;
+    --mdb-btn-hover-bg: var(--site-color2);
+    --mdb-btn-hover-color: #fff;
+    --mdb-btn-focus-bg: var(--site-color2);
+    --mdb-btn-focus-color: #fff;
+    --mdb-btn-active-bg: var(--site-color2);
+    --mdb-btn-active-color: #fff;
+}
+.btn-outline-site {
+    --mdb-btn-bg: transparent;
+    --mdb-btn-color: var(--site-color);
+    --mdb-btn-hover-bg: transparent;
+    --mdb-btn-hover-color: var(--site-color2);
+    --mdb-btn-focus-bg: transparent;
+    --mdb-btn-focus-color: var(--site-color2);
+    --mdb-btn-active-bg: transparent;
+    --mdb-btn-active-color: #129445;
+    border-color: var(--site-color);
+}
+.nav-link:hover{
+    color:black!important
+}
+.navbar-brand{
+    font-size: 1.5rem;
+}
+/* hero section */
+#hero .image{
+    width: 25rem;
+    height: 25rem;
+}
+
+
+
+/* card-body */
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card img{
+    width: 15rem;
+    height: 15rem;
+
+}
+
+
+
+
+/* contact */
+.form-control:focus{
+    border:1.5px solid var(--site-color)
+}
+
+
+
+
+
+/* mobile view */
+@media (max-width: 768px)   { 
+
+    /* navigation */
+        #hero{
+           padding-right:2rem!important;
+          text-align: center;
+          padding: 10px;
+        }
+      /* hero section */
+#hero .image{
+    width: 15rem;
+    height: 15rem;
+}
+
+
+
+/* about section */
+#about{
+    margin-left: 2rem;
+    text-align: left;
+}
+#about h3,.more{
+    text-align: center;
+}
+
+
+/* servicrs */
+#services{
+    margin-left: 2rem;
+    text-align: center;
+}
+#services .card{
+    margin-left:4rem;
+}
+ }
