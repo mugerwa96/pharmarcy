@@ -142,3 +142,34 @@
 }
 
 
+
+/* -----------------------pharmacist--- */
+
+.pharmacist-form{
+    width: 40rem;
+    height: 20rem;
+   
+    
+}
+
+.image-pharmacist{
+width: 20rem;
+
+}
+
+@media (max-width:600px)
+{
+    .pharmacisit p{
+        text-align: center;
+    }
+}
+
+
+
+/* -----------------------doctor ----------------- */
+@media (max-width:600px)
+{
+    .doctor p{
+        text-align: center;
+    }
+}
