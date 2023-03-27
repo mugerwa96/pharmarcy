@@ -82,94 +82,67 @@
     border:1.5px solid var(--site-color)
 }
 
-
-
-
-
-/* mobile view */
-@media (max-width:600px)   { 
-
-   
-    /* hero section */
-    .title{
-        text-align: center;
-    }
-        .sub-title{
-        text-align: center;
-        
-    }
-    .image{
-        width: 20rem;
-        height: 20rem;
-        margin-top: 2rem;
-    }
-    .buttons{
-        margin-left: 1.5rem;
-    }
-    
-    
-/* about section */
-#about{
-    /* margin-left: 1rem; */
-    text-align: left;
-    padding: 10px;
-}
-#about h3,.more{
-    text-align: center;
-}
-.about-heading{
-    text-align: center;
-}
-.heading2{
-    text-align: center;
-    margin-top: 20px;
-}
-.aims-sm{
-    text-align: center;
-}
-
-
-/* servicrs */
-#services{
-    
-    text-align: center;
-}
-#services .card{
-    /* margin-left:1rem; */
-    width: 21rem!important;
-
- }  
-}
-
-
-
-/* -----------------------pharmacist--- */
-
-.pharmacist-form{
-    width: 40rem;
-    height: 20rem;
-   
-    
-}
-
 .image-pharmacist{
-width: 20rem;
-
-}
-
-@media (max-width:600px)
-{
-    .pharmacisit p{
-        text-align: center;
-    }
+    width: 20rem;
+    height: 20rem;
 }
 
 
 
-/* -----------------------doctor ----------------- */
-@media (max-width:600px)
-{
-    .doctor p{
+/* =================mobile view screen=========== */
+
+@media  (max-width:600px) {
+
+
+/* ============index page========= */
+    /*--------------------hero section--------- */
+       .title{
+        text-align: center;
+       
+       }
+       .buttons{
+        margin-left:1.5rem
+       }
+      .image{
+        width: 21rem;
+        margin-top: 2rem;
+      
+        height: 21rem;
+    }
+    
+
+    /*--------------------hero section--------- */
+
+
+    /*--------------------about section--------- */
+    .more,.about-heading,.heading2{
         text-align: center;
     }
+    .about-btn{
+       margin-left:20%
+    }
+    /*--------------------about section--------- */
+
+
+
+
+    /*--------------------services section--------- */
+    .card{
+        width: 20rem;
+        margin-left:1rem
+    }
+    /*--------------------services section--------- */
+    
+    
+/* ============index page========= */
+
+
+
+/* =================pharmacisits============= */
+
+.pharmacisit p{
+ text-align: center;
+ font-style: 12px;
+}
+/* =================pharmacisits============= */
 }
